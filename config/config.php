@@ -1,9 +1,9 @@
 <?php
-$host = getenv('MYSQLHOST');
-$port = getenv('MYSQLPORT');
-$dbname = getenv('MYSQLDATABASE');
-$user = getenv('MYSQLUSER');
-$pass = getenv('MYSQLPASSWORD');
+$host = 'shortline.proxy.rlwy.net';
+$port = '51571';
+$dbname = 'railway';
+$user = 'root';
+$pass = 'KAoNLGbUIMieXGRMCPFfqSsjVcbCSxaI';
 
 try {
     $conn = new PDO("mysql:host=$host;port=$port;dbname=$dbname;charset=utf8mb4", $user, $pass);
